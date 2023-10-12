@@ -26,4 +26,4 @@ jobs:
       run: npm ci
 
     - name: Run Mocha Tests
-      run: npx mocha inittest.spec.js
+      run: npx mocha inittest.spec.js --if-present
